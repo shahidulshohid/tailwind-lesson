@@ -27,13 +27,20 @@ function App() {
       <div className="bg-gradient-to-r from-blue-300 via-purple-500">
         We are learning gradient
       </div> */}
-      <div className="flex">
+      {/* <div className="flex">
         <div className="flex-1 border border-green-800">First div 1</div>
         <div className="flex-2 border border-pink-700">Second div 2</div>
       </div>
       <div className="flex flex-col justify-center items-center">
         <div>First</div>
         <div>Second</div>
+      </div>
+      <div className="grid grid-cols-3 gap-4">
+        <div className="col-span-2">Grid item 1</div>
+        <div>Grid item 2</div>
+      </div> */}
+      <div className="bg-blue-300">
+        We are testing responsiveness
       </div>
     </>
   )
