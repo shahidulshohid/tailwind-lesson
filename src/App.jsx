@@ -22,7 +22,10 @@ function App() {
       <div className="bg-gray-900 text-white">
         Tailwind is Awesome
       </div>
-      <div className="bg-[url('./images/banner.png')] h-screen bg-no-repeat bg-cover bg-center">
+      {/* <div className="bg-[url('./images/banner.png')] h-screen bg-no-repeat bg-cover bg-center">
+      </div> */}
+      <div className="bg-gradient-to-r from-blue-300 via-purple-500">
+        We are learning gradient
       </div>
     </>
   )
