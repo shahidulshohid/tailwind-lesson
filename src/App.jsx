@@ -39,7 +39,7 @@ function App() {
         <div className="col-span-2">Grid item 1</div>
         <div>Grid item 2</div>
       </div> */}
-      <div className="bg-blue-300">
+      <div className="bg-blue-300 sm:bg-red-300 md:bg-green-300 lg:bg-yellow-300 xl:bg-purple-300">
         We are testing responsiveness
       </div>
     </>
