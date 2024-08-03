@@ -1,6 +1,4 @@
-
 function App() {
-
   return (
     <>
       {/* <div className="text-3xl font-bold underline">
@@ -42,9 +40,10 @@ function App() {
       <div className="bg-blue-300 sm:bg-red-300 md:bg-green-300 lg:bg-yellow-300 xl:bg-purple-300">
         We are testing responsiveness
       </div>
+      <div className="bg-primary text-customcolor-500 font-custom">We are testing customcolor</div>
+      <div className="mt-2 ml-1 tablet:flex">test</div>
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
