@@ -13,13 +13,13 @@ function App() {
         <p className="text-gray-400 text-lg text-center">Jerry</p>
         <p className="text-blue-900 text-xs text-right">Max</p>
       </div>
-      <div className="bg-red-500">
+      <div className="bg-red-500 min-w-40 min-h-60">
         Tailwind is great
       </div>
-      <div className="bg-blue-200">
+      <div className="bg-blue-200 w-1/2 h-32 text-center">
         Tailwind is fantastic
       </div>
-      <div className="bg-gray-900 text-white">
+      <div className="bg-gray-900 text-white m-4 p-8">
         Tailwind is Awesome
       </div>
       {/* <div className="bg-[url('./images/banner.png')] h-screen bg-no-repeat bg-cover bg-center">
